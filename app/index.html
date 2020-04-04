@@ -30,8 +30,25 @@
 
 	<header>		
 		<div class="wrapper">
-
-		</div>		
+            <div class="row">
+                <div class="header__logo">
+					<a href="/">
+						<img src="./img/svg/logo.svg" alt="logo">
+					</a>
+                </div>
+				<div class="spacer"></div>
+                <div class="header__navigation">
+                    <nav>
+                        <ul>
+                            <li><a href="/portfolio/">Portfolio</a></li>
+                            <li><a href="/services/">Services</a></li>
+                            <li><a href="/blog/">Blog</a></li>
+                            <li><a href="/blog/" class="nav-rectangle">Get a quote</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+		</div>
 	</header>
 	
 <!-- HEADER EOF   -->	
@@ -52,8 +69,8 @@
 
 <!-- BODY EOF   -->
 	
-	<script src="js/jquery-3.0.0.min.js"></script>		
-	<script src="js/jquery-migrate-1.4.1.min.js" ></script>
+	<script src="./js/jquery-3.0.0.min.js"></script>
+	<script src="./js/jquery-migrate-1.4.1.min.js" ></script>
 	<!--
 	<script src="js/components/jquery.fancybox.js" ></script>
 	<script src="js/components/jquery.formstyler.js" ></script>
@@ -62,10 +79,9 @@
 	-->
 	<script type="text/javascript">
 		$(function(){
-			$.pixlayout("test_psd.jpg");
+			$.pixlayout("SERVICES.png");
 		});
-		/*
-		$(function(){
+		/*$(function(){
 			$.pixlayout({
 				src: "/img/layout.jpg",
 				opacity: 0.8,
@@ -74,8 +90,7 @@
 				clip: true,
 				show: true
 			}, ".wrapper");
-		});
-		*/
+		});*/
 	</script>
 	<script src="./js/custom.js" ></script>
 </body>
