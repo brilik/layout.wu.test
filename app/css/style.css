@@ -430,25 +430,30 @@ header {
       justify-content: space-between;
       align-items: center; }
     header nav li a {
-      color: #25252B; }
+      font-family: Montserrat;
+      color: #25252B;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px; }
       header nav li a:hover {
         text-decoration: underline; }
-    header nav li:last-child {
+    header nav li:last-child a {
       font-weight: bold;
       font-size: 20px;
-      line-height: 24px; }
-      header nav li:last-child a {
-        position: relative;
-        z-index: 999; }
-        header nav li:last-child a:before {
-          content: "";
-          background: linear-gradient(99.49deg, #688CE8 5.14%, #A8BBEC 95.22%);
-          border-radius: 2px;
-          position: absolute;
-          width: 45px;
-          height: 13px;
-          margin-top: 7px;
-          z-index: -1; }
+      line-height: 24px;
+      position: relative;
+      z-index: 999; }
+      header nav li:last-child a:before {
+        content: "";
+        background: linear-gradient(99.49deg, #688CE8 5.14%, #A8BBEC 95.22%);
+        border-radius: 2px;
+        position: absolute;
+        width: 40px;
+        height: 13px;
+        margin-top: 15px;
+        margin-left: -7px;
+        z-index: -1; }
   header .header__navigation {
     width: 100%; }
 
