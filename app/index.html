@@ -37,16 +37,39 @@
 					</a>
                 </div>
 				<div class="spacer"></div>
-                <div class="header__navigation">
+                <div class="header__navigation desktop">
                     <nav>
                         <ul>
                             <li><a href="/portfolio/">Portfolio</a></li>
                             <li><a href="/services/">Services</a></li>
                             <li><a href="/blog/">Blog</a></li>
-                            <li><a href="/blog/" class="nav-rectangle">Get a quote</a></li>
+                            <li><a href="#" class="nav-rectangle">Get a quote</a></li>
                         </ul>
                     </nav>
                 </div>
+				<div class="header__navigation mobile">
+					<div class="b-nav">
+						<nav>
+							<ul>
+								<li><a class="b-link b-link--active" href="/portfolio/">Portfolio</a></li>
+								<li><a class="b-link" href="/services/">Services</a></li>
+								<li><a class="b-link" href="/blog/">Blog</a></li>
+								<li><a class="b-link nav-rectangle" href="#">Get a quote</a></li>
+							</ul>
+						</nav>
+					</div>
+					<!-- Burger-Icon -->
+					<div class="b-container">
+						<div class="b-menu">
+							<div class="b-bun b-bun--top"></div>
+							<div class="b-bun b-bun--mid"></div>
+							<div class="b-bun b-bun--bottom"></div>
+						</div>
+
+						<!-- Burger-Brand -->
+						<a href="#" class="b-brand"></a>
+					</div>
+				</div>
             </div>
 		</div>
 	</header>
@@ -71,6 +94,7 @@
 	
 	<script src="./js/jquery-3.0.0.min.js"></script>
 	<script src="./js/jquery-migrate-1.4.1.min.js" ></script>
+	<script src="./js/components/burger.js" ></script>
 	<!--
 	<script src="js/components/jquery.fancybox.js" ></script>
 	<script src="js/components/jquery.formstyler.js" ></script>
